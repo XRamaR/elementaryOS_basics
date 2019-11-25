@@ -11,5 +11,6 @@ sudo apt-get install gcc -y
 sudo snap install mailspring
 sudo snap install spotify
 sudo apt-get install gimp -y
-sudo apt-get install glipper -y
-sudo apt install gnome-tweaks -y
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:philip.scott/elementary-tweaks -y
+sudo apt install elementary-tweaks -y 
