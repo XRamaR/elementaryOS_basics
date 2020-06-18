@@ -3,13 +3,13 @@ sudo apt install snap git meson -y
 sudo snap install discord --classic
 sudo snap install caprine spotify 
 
-sudo apt-get install chrome-gnome-shell
+sudo apt-get install chrome-gnome-shell xboxdrv -y
 
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt-get update
 sudo apt-get install lutris -y
 
-sudo apt install ffmpeg
+sudo apt install ffmpeg -y
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
 sudo apt install obs-studio steam-installer curl -y
