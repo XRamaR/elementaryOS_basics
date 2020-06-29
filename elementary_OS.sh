@@ -12,6 +12,7 @@ sudo snap install spotify
 sudo apt-get install gimp -y
 sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks -y
-sudo apt install elementary-tweaks -y 
+sudo apt install elementary-tweaks -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
 sudo dpkg -i google-chrome-stable_current_amd64.deb
