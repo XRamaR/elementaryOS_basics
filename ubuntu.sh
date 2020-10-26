@@ -1,8 +1,8 @@
 #!/bin/bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install snap git meson ttf-mscorefonts-installer texmaker miktex steam-installer htop -y
+sudo apt install snap htop git meson ttf-mscorefonts-installer texmaker miktex steam-installer htop -y
 sudo snap install discord --classic
-sudo snap install caprine spotify
+sudo snap install caprine spotify vlc
 
 sudo apt-get install chrome-gnome-shell xboxdrv && sudo systemctl enable xboxdrv.service
 
